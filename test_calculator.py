@@ -22,14 +22,14 @@ class TestCalculator(unittest.TestCase):
 
     ######## Partner 1
     def test_multiply(self): # 3 assertions
-        self.assertEqual(multiply(2,2), 4)
-        self.assertEqual(multiply(1,500), 500)
-        self.assertequal(multiply(0,0), 0)
+        self.assertEqual(mul(2,2), 4)
+        self.assertEqual(mul(1,500), 500)
+        self.assertequal(mul(0,0), 0)
 
     def test_divide(self): # 3 assertions
-        self.assertEqual(divide(2,2), 1)
-        self.assertEqual(divide(1,2), 0.5)
-        self.assertAlmostEqual(divide(1,3), 0.33333333333)
+        self.assertEqual(div(2,2), 1)
+        self.assertEqual(div(1,2), 0.5)
+        self.assertAlmostEqual(div(1,3), 0.33333333333)
     ######## Partner 2
     def test_divide_by_zero(self): # 1 assertion
         with self.assertRaises(ZeroDivisionError):
@@ -56,7 +56,7 @@ class TestCalculator(unittest.TestCase):
     ######## Partner 1
     def test_log_invalid_argument(self):
         with self.assertRaises(ValueError):
-            logarithm(2, -1)
+            log(2, -1)
     def test_hypotenuse(self):
         self.assertEqual(hypotenuse(3,4), 5)
         self.assertAlmostEqual(hypotenuse(1,1), 1.4142136 )
