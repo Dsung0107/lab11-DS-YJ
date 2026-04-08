@@ -22,7 +22,7 @@ def logarithm(a,b):
         raise ValueError("Logarithm of non-positive number")
     return math.log(a, b)
 def exponent(a,b):
-    return a **
+    return a ** b
 def square_root(a):
     if a<0:
         raise ValueError("Square root of non-positive number")
