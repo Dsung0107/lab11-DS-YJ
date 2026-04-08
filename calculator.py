@@ -1,3 +1,7 @@
+#https://github.com/Dsung0107/lab11-DS-YJ.git
+#Partner 1: Derek Sung
+#Partner 2: Yoonho Ji
+
 import math
 
 """
