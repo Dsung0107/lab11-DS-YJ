@@ -1,9 +1,5 @@
 import math
-<<<<<<< HEAD
 
-def add(a, b):
-    return a + b
-=======
 """
 calculator.py
 - Defines functions used to create a simple calculator
